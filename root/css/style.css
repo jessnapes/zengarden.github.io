@@ -1,0 +1,367 @@
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Anaheim|Peddana);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
+{    a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0} 
+}
+/* How do i make the border stop with the outter edges of the text?
+How do i make the whole body stay in the middle when i expand the page? 
+How to i make the image stay in the middle as well ?
+How do i make the Side bar design names even...*/
+body{
+    line-height: 1.38888; /* works out to 25px line height */
+    font-weight: 300;
+    padding:10px ;
+    margin-top: 100px;
+    background-size: 850px 400px;
+    background-image: url(../images/IMG_0354.png);
+    background-repeat: no-repeat;
+    background-position:center top;
+
+    /*max-width: 900px;
+    background-*/
+}
+h1{ /* STYLE "CSS ZEN GARDEN" */
+    font-size: 500%;
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    border-bottom: 3px solid white ;
+    border-top: 3px solid white ;
+    line-height: 80px;
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: 10px;  
+    align-self: auto; 
+    
+}
+
+h2{ /* "THE BEAUTY OF CSS DESIGN" */
+    font-size: 100%;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: white;
+    margin: 0 0 10px 0; 
+ }
+
+h3{ /* "THE ROAD TO ENLIGHTENMENT" */
+    font-size: 150%; 
+    font-family: peddana, sans-serif;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.intro {/* ALL THREE...*/
+    text-align: center;
+    line-height:20px; 
+}
+/*Hidden content "download example HTML and CSS paragraph
+needed to seperate it to move it over the buttons.*/
+.summary p:last-child {
+    color: transparent;
+    margin-top:     180px;
+    margin-right:   490px;
+    letter-spacing: 1.9px;
+
+      z-index: 1000; position:relative
+}
+/* HTML CSS SOFTWARE PRINT BUTTONS */
+.intro::after{
+    content:     '' ;
+    width:      100%;
+    display:    block;
+    height:     100px;
+    position:   absolute;
+    top:410px;
+    background: url(../images/logos.buttons.svg) 250px -.5px;
+    background-repeat:no-repeat;
+    background-size: 400px;
+}
+
+.page-wrapper{
+    width: 960px;
+    margin: 0 auto;
+    
+}
+
+p{
+    margin: 0em;
+    font-family:peddana, sans-serif;
+    margin-top: 20px
+   
+    
+}
+/* "A DEMONSTRATION...*/
+p:first-child{
+    font-family: peddana, sans-serif;
+    font-size: 20px;
+  
+
+}
+
+    
+
+/* Links for HTML and CSS are white because they are hidden behind the buttons... */
+.summary a:link{
+    color: transparent;/*the html and css are hidden and transparent so it appears that the circles are buttons*/
+    opacity:inherit;
+  font-size: 40px;
+    letter-spacing:-4px;
+        
+}
+/* " LITTERING A DARK AND DREARY ROAD...*/
+.preamble{
+    clear: ; 
+	margin: 70px 20px 20px 10px; 
+	width: 800px; 
+	float: left;
+    text-align: left;
+    line-height: 20px;
+    width: 50%;
+    
+}
+
+.summary{
+    color: white;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.supporting{
+    clear:     both; 
+	margin:    20px 20px 20px 10px; 
+	width:     800px; 
+	float:     left;
+    width:     50%;
+}
+
+
+
+/* Other Designs*/
+.sidebar{
+    float: right;
+    max-width: 200px;
+    margin: -340px 100px 0px 10px;
+	font: 20px peddana, sans-serif; 
+	padding:  70px;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* name (enter) by (enter) designer styled */
+.select{
+    text-align: right;
+}
+
+.archives{
+    text-align: center;
+    
+    
+}
+
+.resources{
+    text-align: center;
+}
+
+
+    /* unvisited link */
+a:link {
+    color:darkgoldenrod;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color:darkgoldenrod;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover, a:focus, a:active{
+    color:burlywood;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    
+}
+
+
+footer { 
+	text-align:right 
+	}
+footer a:link, footer a:visited { 
+	margin-right: 20px; 
+	}
+.designer-name{
+    text-transform:lowercase;
+    display:block;
+    line-height: 20px;
+    border-bottom: 1px double black;
+}
+
+.design-name{
+    display:block;
+    line-height:20px
+        
+}
+
+.next{
+border-bottom: 20px solid white;
+    
+}
+
+.zen-resources{
+    
+  line-height: 30px;
+}
+
+
+@media screen and ( max-width: 983px){
+
+    /*body{
+    background-color: red;
+    }*/
+    
+h1{ /* STYLE "CSS ZEN GARDEN" MOBILE */
+    font-size: 300%;
+    line-height: 50px;
+    letter-spacing: 7px;  
+    width: 40%;
+    
+}
+    
+    h1::before{
+        
+        
+        
+}
+h2{ /* "THE BEAUTY OF CSS DESIGN" MOBILE */
+    font-size: 70%;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: white;
+    margin: 0 0 10px 0; 
+    width: 40%;
+ }
+    
+    /* "A DEMONSTRATION...*/
+p:first-child{
+    font-family: peddana, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    width: 30%;
+    margin-right: 620px;
+    margin-left: auto;
+}
+    
+h1, h2 {
+    text-align: center;
+        
+    }
+    
+h3 {
+    text-align: left; 
+     margin-top: -130px;
+    font-size: 100%;
+    text-decoration:underline
+
+    
+    }
+    .intro::after{
+  display:none;
+}
+    
+p{	
+    
+    position:inherit;
+		width:150px;
+
+    
+    }
+    
+.sidebar{
+    font-size: 14px;
+        float:right;
+         display: block;
+        position: absolute;
+        width: 300px;
+        padding: 0px;
+        margin-left: -175px;
+        margin-top: -100px;
+        top: 55%;
+        left: 80%;
+
+    }
+    
+    .explanation{
+        margin-top: 140px;
+    }
+    
+.participation{
+margin-top: 180px;
+    }
+    
+.benefits{
+    position: absolute;
+    margin-top: 200px    }
+    
+    
+.requirements{
+    
+    float:right;
+    margin-top: -1100px;
+    margin-right: 140px
+        
+    }
+    
+    .intro::after{
+    display:none;
+    }  
+.designer-name{
+    border: none;
+    line-height: 20px
+    }
+
+.select{
+    display:block;
+    margin-right: 40px;
+}
+
+.archives{
+  display: none;
+    
+    
+}
+
+.resources{
+   display:none;
+}
+
+    footer{
+    
+    float: right;
+        padding: 30px;
+        
+    margin-bottom:20px;
+        
+
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    }
+
+
